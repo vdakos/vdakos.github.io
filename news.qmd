@@ -1,0 +1,8 @@
+---
+title: "News"
+listing:
+  contents: news
+  sort: "date desc"
+  type: default
+  fields: [image, date, title, description]
+---

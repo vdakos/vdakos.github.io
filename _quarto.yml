@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - images/banner.jpg
+
+website:
+  title: "Vasilis Dakos"
+  site-url: "https://www.vasilisdakos.info"
+  navbar:
+    left:
+      - href: index.md
+        text: Home
+      - text: Research
+        menu:
+          - research/resilience-and-tipping-points.md
+          - research/early-warning-signals.md
+          - research/ecological-dynamics.md
+          - research/eco-evolutionary-tipping-points.md
+      - href: publications.md
+        text: Publications
+      - href: index.md#people
+        text: People
+      - href: news.qmd
+        text: News
+      - href: index.md#contact
+        text: Contact
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    page-layout: full                 # narrow side margins, as on pandelisperakakis.info
+    link-external-newwindow: true
+    toc: false

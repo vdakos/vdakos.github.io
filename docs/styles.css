@@ -1,0 +1,251 @@
+/* written by scripts/build_site.py */
+
+/* the row spans the window (column-screen-inset) so that it is centred on the page, not on the
+   text column, which sits left of centre; capped at 1200 px */
+.research-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));   /* equal widths whatever the titles */
+  gap: 20px;
+  width: 100%;
+  max-width: 1320px;
+  margin: 1.5rem auto 2.5rem auto;
+}
+.research-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;          /* titles start at the same height in every card */
+  align-items: center;
+  text-align: center;
+  padding: 0 0 20px 0;
+  background: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2),
+              0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+/* theme photo across the top of the card, cropped to the same height in every card */
+.research-card img.card-photo {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 3px 3px 0 0;
+  margin-bottom: 16px;
+}
+/* Quarto wraps title, text and button in a section: it fills the card below the photo, and
+   its last paragraph (the button) sits at the bottom so that the buttons line up */
+.research-card > section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+}
+.research-card > section > p:last-child { margin-top: auto; }
+/* one-line titles (Vasilis, 2026-10-22); they may wrap again when the cards get narrow */
+.research-card h4 { white-space: nowrap; font-size: 0.95rem; width: 100%; text-align: center; }
+/* Quarto's hover link icon after each heading takes up space and pushes the title off centre */
+.research-card h4 .anchorjs-link { display: none; }
+@media (max-width: 1299px) {
+  .research-card h4 { white-space: normal; }
+}
+.research-card p:has(img) { margin: 0; width: 100%; }
+/* theme photo under the title of a topic page */
+img.topic-photo {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-bottom: 1.5rem;
+}
+.research-card h4 {
+  margin: 0 0 12px 0;
+  color: #333333;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.research-card p {
+  color: #666666;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin-bottom: 12px;
+}
+.research-card p:last-child { margin-bottom: 0; }
+@media (max-width: 991px) {
+  .research-cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Menu bar: larger menu items, site name in bold. */
+.navbar .navbar-title { font-weight: 700; font-size: 1.35rem; }
+.navbar .nav-link { font-size: 1.1rem; }
+
+/* Front page banner: the old site's header text over its header photo (s10401091.jpg,
+   photo 3 of the header set), darkened so the white text reads. */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 340px;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding: 2rem 8%;
+  color: #ffffff;
+  background: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)),
+              url("images/banner.jpg") center / cover no-repeat;
+}
+.hero p { margin: 0; }
+.hero-title {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.15;
+}
+.hero-subtitle { font-size: 1.4rem; font-weight: 300; margin-top: 0.5rem; }
+@media (max-width: 576px) {
+  .hero { min-height: 220px; }
+  .hero-title { font-size: 2rem; }
+  .hero-subtitle { font-size: 1.1rem; }
+}
+
+/* Front page (body class "home"): section titles centred and 1 pt larger than the theme's h2
+   (calc(1.29rem + 0.48vw), 1.65rem from 1200 px), titles of the selected publications bold. */
+body.home main section.level2 > h2 {
+  text-align: center;
+  font-size: calc(1.29rem + 0.48vw + 1pt);
+}
+@media (min-width: 1200px) {
+  body.home main section.level2 > h2 { font-size: calc(1.65rem + 1pt); }
+}
+body.home section#selected-publications h4 { font-weight: 700; }
+
+/* Front page: Quarto's page grid is switched off and every block is centred at up to 1150 px;
+   the banner and the gray bands run the full window width. (With the grid, Quarto nests a
+   second grid in the main column and plain sections end up left of centre.) */
+body.home #quarto-content, body.home main.content, body.home main section.level2 {
+  display: block;
+}
+body.home main.content { width: 100%; margin: 0; padding: 0 1.5em; }
+body.home main.content > *, body.home main section.level2 > * {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* the research cards get a wider row, so that each theme title fits on one line */
+body.home main section.level2 > .research-cards { max-width: 1320px; }
+body.home main.content > .hero { max-width: none; margin-left: -1.5em; margin-right: -1.5em; }
+body.home main section.level2 { max-width: none; }
+
+/* Front page sections alternate white and very light gray, full width, starting with white
+   (the block under the banner); the gray band is drawn with box-shadow so it spans the window. */
+main section.level2 { padding: 2.2rem 0 1.8rem 0; }
+main section.level2.section-alt {
+  background: #f7f7f7;
+  box-shadow: 0 0 0 100vmax #f7f7f7;
+  clip-path: inset(0 -100vmax);
+}
+
+/* Contact: the map and the office photo side by side, together as wide as the BIODICEE logo
+   above them (770 px) and at equal height: each takes a share of the row in proportion to its
+   aspect ratio (map 1100x984, office 930x1240). */
+.contact-photos {
+  display: flex;
+  gap: 12px;
+  max-width: 770px;
+  margin: 1rem 0;
+}
+.contact-photos p { margin: 0; }
+.contact-photos p:nth-child(1) { flex: 1.118; }
+.contact-photos p:nth-child(2) { flex: 0.75; }
+.contact-photos img { width: 100%; height: auto; border-radius: 3px; }
+
+/* Contact: address on the left, logo, map and office photo on the right. */
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) 2fr;
+  gap: 2rem;
+  align-items: start;
+}
+.contact-media > p:first-child { margin: 0 0 12px 0; }
+.contact-media img { max-width: 100%; }
+@media (max-width: 767px) {
+  .contact-grid { grid-template-columns: 1fr; }
+}
+
+/* Front page top: photo of Vasilis left, name, role, bio and links right (as the home page of
+   pandelisperakakis.info). */
+.home-about {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  align-items: start;
+  padding: 1rem 0 2rem 0;
+}
+.home-photo p { margin: 0; line-height: 0; }
+.home-photo img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 0.5rem;
+  border: 1px solid var(--bs-border-color);
+}
+.home-text h3 { margin-top: 0; }
+@media (max-width: 576px) {
+  .home-about { grid-template-columns: 1fr; }
+  .home-photo { text-align: center; }
+  .home-photo img { width: 140px; height: 140px; }
+}
+
+/* People: as on the old front page, cards two per row, photo on the left (30%) and text
+   on the right; photos cropped to the same size. */
+section#people > h2, section#people > p { text-align: center; }
+.people-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 1.5rem 0 2.5rem 0;
+}
+.person-card {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: start;
+  background: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2),
+              0 1px 5px 0 rgba(0, 0, 0, .12);
+  overflow: hidden;
+}
+.person-photo p { margin: 0; line-height: 0; }
+.person-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+}
+/* .fit cards: the photo takes the height of the text instead of setting the card's height,
+   cropped from the top (Jose, 2026-10-22) */
+.person-card.fit { align-items: stretch; }
+.person-card.fit .person-photo { position: relative; }
+.person-card.fit .person-photo img {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  aspect-ratio: auto;
+  object-position: center top;
+}
+.person-text { padding: 15px 18px; text-align: left; }
+.person-text h4 { margin: 0 0 6px 0; color: #333333; font-size: 1.1rem; font-weight: 600; }
+.person-text p { font-size: 0.92rem; line-height: 1.45; margin-bottom: 10px; }
+.person-text p:last-child { margin-bottom: 0; }
+@media (max-width: 767px) {
+  .people-cards { grid-template-columns: 1fr; }
+}
+
+/* space between buttons that follow each other */
+a.btn-sm { margin: 0 4px 6px 0; }
+@media (max-width: 575px) {
+  .research-cards { grid-template-columns: 1fr; }
+}
+
