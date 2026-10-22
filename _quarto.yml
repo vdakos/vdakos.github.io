@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - images/banner.jpg
+    - CNAME
 
 website:
   title: "Vasilis Dakos"
