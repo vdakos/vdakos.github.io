@@ -249,3 +249,8 @@ a.btn-sm { margin: 0 4px 6px 0; }
   .research-cards { grid-template-columns: 1fr; }
 }
 
+/* news listings (News page and front page): small thumbnails beside the posts */
+/* selectors as specific as Quarto's (div.quarto-post .thumbnail img) so that these win */
+div.quarto-post .thumbnail { flex: 0 0 120px; max-width: 120px; }
+div.quarto-post .thumbnail img.thumbnail-image { width: 120px; height: 90px; object-fit: cover; }
+
