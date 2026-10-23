@@ -14,6 +14,8 @@ wp_parent: 0
 
 #### **2026**
 
+[Benerradi R]{.underline}, **Dakos V**, [Cano AV]{.underline} (2026). Sensitivity of fish stock trajectories to climate forcing and human exploitation at a global scale. *Journal of the Royal Society Interface* 23(241), 20251040. [doi:10.1098/rsif.2025.1040](https://doi.org/10.1098/rsif.2025.1040)
+
 [Pélissié M]{.underline}, Devictor V, Jensen OP, **Dakos V** (2026). Abrupt declines in fish productivity often precede stock collapses in marine fisheries. *Science Advances*.12, eaed7911. [doi:10.1126/sciadv.aed7911](https://doi.org/10.1126/sciadv.aed7911)
 
 Abrams, JF, Pereira LM, Spaiser V, Wunderling N, Villasante S, Tàbara, JD, Biggs, D. I. Armstrong McKay, C. Zimm, M. Milkoreit, S. M. Constantino, R. Debnath, ** Dakos V**, P. D. L. Ritchie, S. R. Smith, J. C. Rocha, S. Kéfi, J. E. Buxton, C. A. Boulton, K. Greenlees, S. Juhola, A. Bhowmik, L. P. Fesenfeld, J. Clarke, J. G. Dyke, L. Laybourn, S. J. Lade, M. Marjanović-Abrams, B. Dickenson Bampton, and T. M. Lenton (2026). Integrating tipping point concepts across diverse systems. *Commun. Sustain.* 1, 68. [doi:10.1038/s44458-026-00063-5](https://doi.org/10.1038/s44458-026-00063-5)
@@ -226,7 +228,7 @@ Kéfi S, Guttal V, Brock WA, Carpenter SR, Ellison AM, Livina VN, Seekell DA,�
 
 Saavedra S, Rohr RP, **Dakos V**, Bascompte J (2013) Estimating the tolerance of species to the effects of global environmental change. *Nature Communications*, 4, 2350. [doi:10.1038/ncomms3350](https://doi.org/10.1038/ncomms3350)
 
-Wang R, Dearing JA, Langdon P, Zhang E, Yang X, **Dakos V**, Scheffer M (2013) Wang et al reply – Brief communication arising, *Nature,* 498, E12-E13. [doi:10.1038/nature11655](https://doi.org/10.1038/nature11655)
+Wang R, Dearing JA, Langdon P, Zhang E, Yang X, **Dakos V**, Scheffer M (2013) Wang et al reply – Brief communication arising, *Nature,* 498, E12-E13. [doi:10.1038/nature12273](https://doi.org/10.1038/nature12273)
 
 **Dakos V**, Hastings A (2013) Editorial: special issue on regime shifts and tipping points in ecology. *Theoretical Ecology*, 6, 253-254. [doi:10.1007/s12080-013-0197-1](https://doi.org/10.1007/s12080-013-0197-1)
 
@@ -298,7 +300,7 @@ Scheffer M, Bascompte J, Brock WA, Brovkin V, Carpenter SR, **Dakos V**, Held H
 
 **Dakos V**, Scheffer M, van Nes EH, Brovkin V, Petoukhov V, Held H (2008) Slowing down as an early warning signal for abrupt climate change. *PNAS*, 105(38), 14308-14312. [doi:10.1073/pnas.0802430105](https://doi.org/10.1073/pnas.0802430105)
 
-Chatzinikolaou Y, **Dakos V**, Lazaridou-Dimitriadou M (2008) Assessing the ecological integrity of a transboundary large Mediterranean river. *International* *Review* *Hydrology*, 93(1), 73-87. [doi:10.1002/aheh.200500644](https://doi.org/10.1002/aheh.200500644)
+Chatzinikolaou Y, **Dakos V**, Lazaridou-Dimitriadou M (2008) Assessing the ecological integrity of a transboundary large Mediterranean river. *International* *Review* *Hydrology*, 93(1), 73-87. [doi:10.1002/iroh.200610937](https://doi.org/10.1002/iroh.200610937)
 
 ####  
 
