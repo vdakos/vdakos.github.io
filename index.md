@@ -83,6 +83,10 @@ A fundamental theoretical understanding that integrates evolutionary processes i
 
 [Full list of publications](/publications.md){.btn .btn-outline-primary .btn-sm}
 
+#### Identifying fish populations prone to abrupt shifts via dynamical footprint analysis
+
+Cano AV, Jensen OP, Dakos V (2025) Proceedings of the National Academy of Sciences USA, 122(34), e2505461122. [doi:10.1073/pnas.2505461122](https://doi.org/10.1073/pnas.2505461122){.doi}
+
 #### Ecosystem tipping points in an evolving world
 
 Dakos V, Matthews B, Hendry AP, Levine J, Loeuille N, Norberg J, Nosil P, Scheffer M, De Meester L (2019). Nature Ecology & Evolution 3(3), 355–362. [doi:10.1038/s41559-019-0797-2](https://doi.org/10.1038/s41559-019-0797-2){.doi}
