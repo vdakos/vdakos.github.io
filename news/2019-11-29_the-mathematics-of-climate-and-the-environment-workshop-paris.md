@@ -8,5 +8,5 @@ original_url: "https://www.vasilisdakos.info/?p=1530"
 
 Coming week (2-6 December 2019) at the Institute Poincare in Paris, a workshop on “Coupled climate-ecology-economy modeling” will take place.
 
-Check here for the detailed workshop programme.
+Check here for the detailed [workshop programme](http://www.ihp.fr/sites/default/files/work3-02_au_06_dec-climathparis2019.pdf).
 

@@ -11,4 +11,4 @@ image: "/images/projected_warming_cmip6.png"
 
 We offer a master project that will investigate how different aspects of future climate change, namely changes in temperature, precipitation, variability, and extreme events, may expose terrestrial and freshwater species beyond their historical climate limits. The work will combine ecological and climate data with statistical analyses, primarily in R, to identify the regions and species most at risk and assess how mitigation pathways may alter these patterns.
 
-The project will be based at ISEM (Montpellier), in the BioDicée team, with a start date from February 2027. More details and the [announcement on the SFE²](https://sfecologie.org/offre/modeling-biodiversity-exposure-to-future-climate-change-scenarios/) job board.
+The project will be based at ISEM (Montpellier), in the BioDicée team, with a start date from February 2027. [More details](https://biodicee.edu.umontpellier.fr/files/2026/09/M2_Biodicee_2027_Climete_exposure.pdf) and the [announcement on the SFE²](https://sfecologie.org/offre/modeling-biodiversity-exposure-to-future-climate-change-scenarios/) job board.
