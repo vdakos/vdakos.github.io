@@ -14,6 +14,8 @@ wp_parent: 0
 
 #### **2026**
 
+Sguotti C, Blenckner T, Fortibuoni T, Hidalgo M, Möllmann C, Airoldi L, de Battisti D, Bertotto D, Cecapolli E, Comandini P, **Dakos V**, Flensborg LC, Knight CJ, Kriegl M, Libralato S, Munari M, Nogues Q, [Pélissié M]{.underline}, Puerta P, Albo Puigserver M, Riedel J, Stocco A, Tzanatos E, Verde C, García-de-Vinuesa A, Zampieri C, Barausse A (2026). A three-step pathway for integrating resilience into marine policy and management. *Earth System Governance* 30, 100367. [doi.org/10.1016/j.esg.2026.100367](https://doi.org/10.1016/j.esg.2026.100367)
+
 [Qin B]{.underline}, **Dakos V**, Cai Y, Zhao Y, Yang X, Zhang E, Wang R (2026). The past and potential antagonistic effects of fishing ban against nutrient loading control on eutrophication restoration in Lake Hongze. *Peer Community Journal* 6, e115. [doi.org/10.24072/pcjournal.827](https://doi.org/10.24072/pcjournal.827)
 
 [Benerradi R]{.underline}, **Dakos V**, [Cano AV]{.underline} (2026). Sensitivity of fish stock trajectories to climate forcing and human exploitation at a global scale. *Journal of the Royal Society Interface* 23(241), 20251040. [doi:10.1098/rsif.2025.1040](https://doi.org/10.1098/rsif.2025.1040)
